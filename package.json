@@ -1,11 +1,33 @@
 {
   "name": "hbs-precompiling-tpls",
   "version": "0.0.2",
-  "description": "Handlebars Precompiling Templates Example with Webpack",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "export NODE_ENV=dev && webpack ",
+    "prod": "export NODE_ENV=prod && webpack -p --progress --colors"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dkarandana/HBS-PrecompilingTemplates.git"
+  },
+  "keywords": [
+    "webpack"
+  ],
   "author": "Dhananjaya Karandana",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dkarandana/HBS-PrecompilingTemplates/issues"
+  },
+  "homepage": "https://github.com/dkarandana/HBS-PrecompilingTemplates#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "browser-sync-webpack-plugin": "^2.2.2",
+    "path": "^0.12.7",
+    "webpack": "^4.39.1",
+    "webpack-cli": "^3.3.6"
+  },
+  "dependencies": {
+    "jquery": "^3.4.1"
+  }
 }
