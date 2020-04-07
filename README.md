@@ -1,2 +1,2 @@
 # HBS-PrecompilingTemplates
-Handlebars-PrecompilingTemplates
+Handlebars Precompiling Templates Example with Webpack
