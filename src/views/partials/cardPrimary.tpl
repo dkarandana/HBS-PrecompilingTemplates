@@ -1,0 +1,1 @@
+Primary Card Partial {{title}}
